@@ -22,8 +22,14 @@ struct LandmarkRow: View {
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
+struct TurtleRock: PreviewProvider {
     static var previews: some View {
         LandmarkRow(landmark: landmarks[0])
+    }
+}
+
+struct Salmon: PreviewProvider {
+    static var previews: some View {
+        LandmarkRow(landmark: landmarks[1])
     }
 }
