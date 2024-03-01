@@ -18,6 +18,7 @@
 		9BD2F1D82B925912004888E9 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1D72B925912004888E9 /* LandmarkRow.swift */; };
 		9BD2F1DA2B925C24004888E9 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1D92B925C24004888E9 /* LandmarkList.swift */; };
 		9BD2F1DC2B925CFE004888E9 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1DB2B925CFE004888E9 /* LandmarkDetail.swift */; };
+		9BD2F1DE2B9269B5004888E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1DD2B9269B5004888E9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9BD2F1D72B925912004888E9 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		9BD2F1D92B925C24004888E9 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		9BD2F1DB2B925CFE004888E9 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		9BD2F1DD2B9269B5004888E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		9BD2F1CB2B9253F6004888E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2F1DD2B9269B5004888E9 /* ContentView.swift */,
 				9BD2F1DB2B925CFE004888E9 /* LandmarkDetail.swift */,
 				9BD2F1D92B925C24004888E9 /* LandmarkList.swift */,
 				9BD2F1D72B925912004888E9 /* LandmarkRow.swift */,
@@ -188,6 +191,7 @@
 				9BD2F1DA2B925C24004888E9 /* LandmarkList.swift in Sources */,
 				9BD2F1DC2B925CFE004888E9 /* LandmarkDetail.swift in Sources */,
 				9BD2F1C92B925385004888E9 /* CircleImage.swift in Sources */,
+				9BD2F1DE2B9269B5004888E9 /* ContentView.swift in Sources */,
 				9BD2F1D32B925769004888E9 /* Landmark.swift in Sources */,
 				9BD2F1D82B925912004888E9 /* LandmarkRow.swift in Sources */,
 				9BD2F1D62B925822004888E9 /* ModelData.swift in Sources */,
