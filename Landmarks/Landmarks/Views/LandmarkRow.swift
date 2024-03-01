@@ -18,6 +18,11 @@ struct LandmarkRow: View {
             Text(landmark.name)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
@@ -28,17 +33,5 @@ struct Group: PreviewProvider {
             LandmarkRow(landmark: landmarks[0])
             LandmarkRow(landmark: landmarks[1])
         }
-    }
-}
-
-struct TurtleRock: PreviewProvider {
-    static var previews: some View {
-        LandmarkRow(landmark: landmarks[0])
-    }
-}
-
-struct Salmon: PreviewProvider {
-    static var previews: some View {
-        LandmarkRow(landmark: landmarks[1])
     }
 }
