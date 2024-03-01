@@ -12,6 +12,7 @@
 		9BD2F1BF2B9250CA004888E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2F1BE2B9250CA004888E9 /* Assets.xcassets */; };
 		9BD2F1C22B9250CA004888E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2F1C12B9250CA004888E9 /* Preview Assets.xcassets */; };
 		9BD2F1C92B925385004888E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1C82B925385004888E9 /* CircleImage.swift */; };
+		9BD2F1CD2B9254AF004888E9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2F1CC2B9254AF004888E9 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9BD2F1BE2B9250CA004888E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD2F1C12B9250CA004888E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BD2F1C82B925385004888E9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9BD2F1CC2B9254AF004888E9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD2F1C82B925385004888E9 /* CircleImage.swift */,
+				9BD2F1CC2B9254AF004888E9 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD2F1BD2B9250C7004888E9 /* ContentView.swift in Sources */,
+				9BD2F1CD2B9254AF004888E9 /* MapView.swift in Sources */,
 				9BD2F1BB2B9250C7004888E9 /* LandmarksApp.swift in Sources */,
 				9BD2F1C92B925385004888E9 /* CircleImage.swift in Sources */,
 			);
